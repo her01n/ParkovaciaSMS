@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ParkovaciaSMS</string>
+    <string-array name="cities">
+        <item>Banská Bystrica</item>
+        <item>Bratislava</item>
+        <item>Brezno</item>
+        <item>Nová Baňa</item>
+    </string-array>
+    <string-array name='no_zone'>
+        <item>celé mesto</item>
+    </string-array>
+    <string-array name='br_zones'>
+        <item>BR1</item>
+        <item>BR2</item>
+        <item>BR3</item>
+    </string-array>
+</resources>

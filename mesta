@@ -1,0 +1,22 @@
+Banska Bystrica
+zony: jedna zona
+sms: BB A1 ECV
+cislo: 2200
+
+Brezno
+zony: BR1, BR2, BR3
+sms: BR1 ECV 1
+cislo: 2200
+
+Nova Bana
+zony: jedna zona
+sms: NB ECV 1
+cislo: 2200
+
+Bratislava
+link: http://www.bps.sk/?id_kat_for_menu=25150
+zona: jedna zona
+sms: BA A4 ECV
+cislo: 2200
+cas: pracovne dni, 08:00 - 18:00
+
