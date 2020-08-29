@@ -13,6 +13,7 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.addTextChangedListener
+import org.json.JSONObject
 import java.io.File
 import java.io.IOException
 
@@ -41,10 +42,12 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener, Vi
     private var zoneAdapterResourceId = -1
 
     override fun onPause() {
-        // TOOD create json file to store this state
-        File(filesDir, "ecv.txt").writeText(ecv.text.toString())
-        File(filesDir, "city.txt").writeText(city.selectedItem.toString())
-        File(filesDir, "zone.txt").writeText(zone.selectedItem.toString())
+        val map = HashMap<Any?, Any?>();
+        map["ecv"] = ecv.text.toString()
+        map["city"] = city.selectedItem.toString()
+        map["zone"] = zone.selectedItem.toString()
+        val json = JSONObject(map)
+        File(filesDir, "state.json").writeText(json.toString(2))
         super.onPause()
 
     }
@@ -53,10 +56,11 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener, Vi
         super.onResume()
         zoneAdapterResourceId = -1
         try {
-            ecv.setText(File(filesDir, "ecv.txt").readText())
-            selectItem(city, File(filesDir, "city.txt").readText())
+            val json = JSONObject(File(filesDir, "state.json").readText())
+            ecv.setText(json.getString("ecv"))
+            selectItem(city, json.getString("city"))
             refresh()
-            selectItem(zone, File(filesDir, "zone.txt").readText())
+            selectItem(zone, json.getString("zone"))
         } catch (e: IOException) {
             // ignored
         }
@@ -112,7 +116,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener, Vi
     private fun continueSend() {
         val selected = city.selectedItem
         if (selected.equals("Banská Bystrica")) {
-            sendSMS("2200", String.format("BB A1 %s", ecv.text))
+            sendSMS("2200", String.format("BB %s %s", zone.selectedItem, ecv.text))
         } else if (selected.equals("Bratislava")) {
             sendSMS("2200", String.format("BA A4 %s", ecv.text))
         } else if (selected.equals("Brezno")) {
@@ -126,7 +130,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener, Vi
         val selected = city.selectedItem
         if (selected != null) {
             if (selected.equals("Banská Bystrica")) {
-                loadZones(R.array.no_zone)
+                loadZones(R.array.bb_zones)
             } else if (selected.equals("Brezno")) {
                 loadZones(R.array.br_zones)
             } else if (selected.equals("Bratislava")) {

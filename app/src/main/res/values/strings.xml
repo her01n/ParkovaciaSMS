@@ -9,9 +9,14 @@
     <string-array name='no_zone'>
         <item>celé mesto</item>
     </string-array>
+    <string-array name="bb_zones">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+    </string-array>
     <string-array name='br_zones'>
-        <item>BR1</item>
-        <item>BR2</item>
-        <item>BR3</item>
+        <item>BRA</item>
+        <item>BRB</item>
+        <item>BRC</item>
     </string-array>
 </resources>

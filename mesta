@@ -1,11 +1,13 @@
 Banska Bystrica
-zony: jedna zona
+link: www.eei.sk/extdoc/46
+zony: A1, A2, A#
 sms: BB A1 ECV
 cislo: 2200
 
 Brezno
-zony: BR1, BR2, BR3
-sms: BR1 ECV 1
+link: https://www.brezno.sk/majitel-vozidla-ziska-30-minut-parkovania-v-brezne-zadarmo-zaslanim-sms-v-spravnom-formate/?f=
+zony: BRA, BRB, BRC
+sms: BRA ECV 1
 cislo: 2200
 
 Nova Bana
