@@ -7,38 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   inkscape:export-ydpi="1024"
-   inkscape:export-xdpi="1024"
-   inkscape:export-filename="/home/heroin/Projekty/ParkovaciaSMS/app/src/main/res/drawable/ikona.png"
-   sodipodi:docname="meter.svg"
-   id="svg1040"
-   version="1.1"
-   viewBox="0 0 12.7 12.7"
+   width="48"
    height="48"
-   width="48">
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1040"
+   sodipodi:docname="meter.svg"
+   inkscape:export-filename="/home/heroin/Projekty/ParkovaciaSMS/app/src/main/res/drawable/ikona.png"
+   inkscape:export-xdpi="1024"
+   inkscape:export-ydpi="1024"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <defs
      id="defs1034" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:window-height="1016"
-     inkscape:window-width="1920"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="g998"
-     inkscape:document-units="mm"
-     inkscape:cy="67.820261"
-     inkscape:cx="100.51761"
-     inkscape:zoom="3.4552564"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.4552564"
+     inkscape:cx="100.51761"
+     inkscape:cy="67.820261"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g998"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata1037">
     <rdf:RDF>
@@ -47,57 +47,57 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
-     inkscape:label="Vrstva 1">
+     id="layer1">
     <g
-       id="g998"
-       transform="matrix(0.54410559,0,0,0.54410559,36.12773,-5.6424689)">
+       transform="matrix(0.54410559,0,0,0.54410559,36.12773,-5.6424689)"
+       id="g998">
       <g
-         transform="matrix(1.0128012,0,0,1.0128012,0.70058218,-0.28214743)"
-         id="g1674">
+         id="g1674"
+         transform="matrix(1.114167,0,0,1.114167,6.2481146,-2.5163208)">
         <g
-           id="g1645"
-           transform="matrix(0.92795512,0,0,0.92795512,-3.4232165,0.6836558)">
+           transform="matrix(0.92795512,0,0,0.92795512,-3.4232165,0.6836558)"
+           id="g1645">
           <path
-             sodipodi:nodetypes="ccccccccc"
-             id="path939"
+             style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.245346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              d="m -63.72154,15.975948 4.163704,14.85017 h 2.281987 v 0.704359 h 4.112007 v -0.762481 h 2.217924 l 4.091776,-14.690416 c -6.439062,-2.045693 -10.681375,-2.125645 -16.867398,-0.101632 z"
-             style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.245346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+             id="path939"
+             sodipodi:nodetypes="ccccccccc" />
           <path
-             sodipodi:nodetypes="ccccc"
-             id="path941"
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.245346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              d="m -62.50131,16.757857 1.124056,3.610589 c 4.128167,-0.897571 8.215117,-0.840465 12.274846,-0.152849 l 1.028041,-3.497718 c -4.672985,-1.756618 -9.490706,-1.629538 -14.426943,0.03998 z"
-             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.245346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+             id="path941"
+             sodipodi:nodetypes="ccccc" />
           <g
-             transform="matrix(0.9272916,0,0,0.9272916,-4.767287,2.4416981)"
-             id="g973">
+             id="g973"
+             transform="matrix(0.9272916,0,0,0.9272916,-4.767287,2.4416981)">
             <rect
-               style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.101385;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect945"
-               width="0.94537401"
-               height="1.9097937"
+               y="14.637537"
                x="-54.954525"
-               y="14.637537" />
+               height="1.9097937"
+               width="0.94537401"
+               id="rect945"
+               style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.101385;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <rect
-               y="15.027461"
-               x="-58.730221"
-               height="1.9111788"
-               width="0.9190557"
+               style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect945-3"
-               style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <rect
-               y="15.027461"
-               x="-51.152512"
-               height="1.9111788"
                width="0.9190557"
+               height="1.9111788"
+               x="-58.730221"
+               y="15.027461" />
+            <rect
+               style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect945-6"
-               style="fill:#2a1771;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+               width="0.9190557"
+               height="1.9111788"
+               x="-51.152512"
+               y="15.027461" />
           </g>
         </g>
       </g>
